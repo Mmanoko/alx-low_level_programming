@@ -13,12 +13,8 @@ int main(void)
 	{
 		if ((lowerCase != 'q' && lowerCase != 'e') && lowerCase <= 'z')
 		{
-			lowerCase ++;
-		}
-		else
-		{
 			putchar(lowerCase)
-				lowerCase += 1;
+				lowerCase ++;
 		}
 	}
 	putchar('\n');
